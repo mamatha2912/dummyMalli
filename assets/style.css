@@ -6,12 +6,23 @@ h2{
     text-align: center;
     background-color: yellowgreen;
     font-size: 2px;
+    margin-left:15px;
+}
+.ex{
+    overflow: auto;
+}
+p{
+    margin-left: 45px;
+    margin-right: 30px;
 }
 .row > div{
     margin-bottom: 15px;
 }
 .Menu{
     margin: 20px;
+}
+.navbar-nav ml-auto{
+    text-align-last: right;
 }
 img{
     background-position: center;
@@ -21,6 +32,7 @@ img{
     border: 5px black;
 }
 .Register{
+    margin-block-start: 50px;
     border-top-right-radius: 100px;
     text-align: center;
     line-height: 15px;
