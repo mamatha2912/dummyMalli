@@ -6,7 +6,7 @@ h2{
     text-align: center;
     background-color: yellowgreen;
     font-size: 2px;
-    margin-left:15px;
+    
 }
 h4{
   background-color: yellow;
@@ -41,6 +41,15 @@ img{
 .bg{
     background-image: url("assets/images/screen.jpg");
 }
+.register{
+    margin-left: 100px;
+    max-width: 50%;
+    margin-block-start: 50px;
+    border-top-right-radius: 100px;
+   
+    line-height: 15px;
+    padding-bottom: 15px;
+}
 .ex{
     overflow: auto;
 }
@@ -59,26 +68,27 @@ img{
   }
 
 
-.imagepicture {
-  background-image: url("assets/images/screenshot.jpg");
+.container1 {
+  background-image: url("images/screenshot.jpg");
   height:100%;
   background-position: center;
   background-repeat: no-repeat;
+   background-color: lighten;
   background-size: cover;
   position: relative;
 }
-.container1 {
+.container2 {
   position: center;
   top: 60px;
-  left: 50px;
-  right: 50px;
-  margin: 20px;
+  left: 200px;
+  right: 200px;
+  margin: 100px;
   max-width: 300px;
   padding: 16px;
-  background-color: violet;
+  background-color: aquamarine;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=number] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -86,14 +96,14 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus{
   background-color: #ddd;
   outline: none;
 }
 
 
 .btn {
-  background-color: #4CAF50;
+  
   color: white;
   padding: 16px 20px;
   border: none;
@@ -109,6 +119,7 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: orange;
     text-align: center;
     display: block; 
+   margin-bottom: 0;
 }
 
     
