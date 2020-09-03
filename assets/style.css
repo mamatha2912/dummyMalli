@@ -51,7 +51,8 @@ img{
     text-align: center;
 }   
 .box{
-  position: center;
+    align-content: center;
+  /*position: center;*/
   display:inline-block;
   top:100px;
   margin-left: 200px;    
